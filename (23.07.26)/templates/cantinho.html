@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Meu Cantinho</title>
+</head>
+<body>
+
+    <h1>Meu Cantinho</h1>
+
+    <p>Olá, {{ nome }}! Este é o seu cantinho secreto.</p>
+
+    <p><strong>Cor favorita:</strong> {{ cor }}</p>
+
+    <p><strong>Linguagem favorita:</strong> {{ linguagem }}</p>
+
+    <p><strong>Frase:</strong> {{ frase }}</p>
+
+    <p>Você visitou esse cantinho {{ visitas }} vez(es).</p>
+
+    <a href="{{ url_for('painel') }}">Voltar ao painel</a>
+
+</body>
+</html>
